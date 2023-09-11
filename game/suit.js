@@ -47,4 +47,3 @@
         alert(result)
     }
 // }
-
