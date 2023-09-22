@@ -18,7 +18,7 @@ let myObjOne = {
 console.log(myObj)
 console.log(myObj.nama)
 console.log(myObj.kelas)
-console.log(myObj.hobbi[1])
+console.log(myObj.hobbi[0])
 console.log(myObj.detail.tinggi)
 const detail = myObj.detail;
 
