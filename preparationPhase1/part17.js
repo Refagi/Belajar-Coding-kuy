@@ -18,35 +18,35 @@ output: [ 'tamkin', 'masuk', 'benci', 'cinta', 'ubar' ]
 - DILARANG menggunakan .reverse()
 */
 
-// function doubleReverse(arr) {
+function doubleReverse(arr) {
 
-//     let result1 = []
-//     for (let i = arr.length - 1; i >= 0; i--){
-//         if (arr[i].length % 2 === 0){
-//             let result2 = ''
-//             for (let j = arr[i].length - 1; j >= 0; j--){
-//                 result2 += arr[i][j]
-//             }
-//             result1.push(result2)
-//         } else {
-//             result1.push(arr[i])
-//         }
-//     }
-//     if (arr.length === 0){
-//         return 'invalid input parameter' 
-//     }
-//     return result1
-//     //code here 
-// }
+    let result1 = []
+    for (let i = arr.length - 1; i >= 0; i--){
+        if (arr[i].length % 2 === 0){
+            let result2 = ''
+            for (let j = arr[i].length - 1; j >= 0; j--){
+                result2 += arr[i][j]
+            }
+            result1.push(result2)
+        } else {
+            result1.push(arr[i])
+        }
+    }
+    if (arr.length === 0){
+        return 'invalid input parameter' 
+    }
+    return result1
+    //code here 
+}
 
-// console.log(doubleReverse(['rabu', 'cinta', 'benci', 'masuk', 'nikmat']));
-// // [ 'tamkin', 'masuk', 'benci', 'cinta', 'ubar' ]
-// console.log(doubleReverse(['aku', 'sayang', 'kamu']));
-// // [ 'umak', 'gnayas', 'aku' ]
-// console.log(doubleReverse(['pelakor', 'perusak', 'rumah', 'tangga']));
-// //[ 'aggnat', 'rumah', 'perusak', 'pelakor' ]
-// console.log(doubleReverse([]))
-// //  invalid input parameter
+console.log(doubleReverse(['rabu', 'cinta', 'benci', 'masuk', 'nikmat']));
+// [ 'tamkin', 'masuk', 'benci', 'cinta', 'ubar' ]
+console.log(doubleReverse(['aku', 'sayang', 'kamu']));
+// [ 'umak', 'gnayas', 'aku' ]
+console.log(doubleReverse(['pelakor', 'perusak', 'rumah', 'tangga']));
+//[ 'aggnat', 'rumah', 'perusak', 'pelakor' ]
+console.log(doubleReverse([]))
+//  invalid input parameter
 
 
 
