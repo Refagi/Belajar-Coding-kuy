@@ -50,8 +50,6 @@
 #     else:
 #         print("Pilihan tidak valid. Silakan pilih menu yang benar.")
 
-
-
 class MesinTol:
     def __init__(self, username, saldo):
         self.username = username
@@ -165,4 +163,3 @@ while True:
         break
     else:
         print("Pilihan tidak valid. Silakan pilih menu yang benar.")
-
